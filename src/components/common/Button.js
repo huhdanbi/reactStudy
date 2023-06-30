@@ -7,7 +7,6 @@ const Button = (props) => {
 Button.defaultProps = {
     name : '확인',
     onClick: () => {
-        console.log(2);
     }
 }
 

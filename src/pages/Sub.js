@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-
+import Todo from '../components/blocks/Todo'
 
 const Sub = () => {
     return (
@@ -8,6 +8,7 @@ const Sub = () => {
           <Link to="/">
             <button>test</button>
           </Link>
+          <Todo />
         </div>
       );
 }

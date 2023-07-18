@@ -7,7 +7,6 @@ const DftInput = (props) => {
         const txt = e.target.value;
         setTxt(txt);
         props.onChange(txt);
-        props.value(txt)
     }
 
     return (

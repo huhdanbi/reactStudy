@@ -25,6 +25,7 @@ const Todo = () => {
         items[selectIdx] = data;
         updateItems([...items]);
         updateData({name:'', nickName:''});
+        setIsUpdate(false);
     }
 
     const listMethods = {};

@@ -11,6 +11,10 @@ const Menu = () => {
             name: '서브',
             linkTo : '/sub'
         },
+        {
+            name: '서브2',
+            linkTo : '/sub2'
+        },
     ];
 
     const [isMenuOpend, setMenu] = useState(false);
